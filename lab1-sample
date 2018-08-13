@@ -1,0 +1,47 @@
+# java
+sample program 1:
+public class helloworld
+{
+	public static void main( String[] args )
+	{
+	//printing the message
+	System.out.println( "helloworld!" );
+	}
+}
+
+sample program 2:
+class A
+{
+	public static void main( String[] args)
+	{
+		int num;
+		double b;
+		char c;
+		String s;
+		num=100;
+		b=1.234;
+		c='A';
+		s="Helloworld";
+		System.out.println( "value of num is "+num );
+		System.out.println( "value of b is "+b );
+		System.out.println( "value of c is "+c );
+		System.out.println( "value of s is "+s );
+	}
+}
+
+sample program 3:
+class scope
+{
+	public static void main( String[] args)
+	{
+		int x;
+		x=10;
+		if(x==10)
+		{
+		int y=20;
+		System.out.println( "x and y"+x+" "+y );
+		x=x*2;
+		}
+	System.out.println( "x is "+x );
+	}
+}
